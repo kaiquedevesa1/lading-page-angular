@@ -1,12 +1,20 @@
-@import "../../../color-variables.scss";
+@use "../../../color-variables" as *;
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
 
 .main-section {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 
   font-family: "Roboto", sans-serif;
 
+  padding: 0 70px;
   span {
     font-size: 20px;
     font-weight: 700;
@@ -22,7 +30,7 @@
 
 .benefit-section {
   display: flex;
-
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 
@@ -51,14 +59,21 @@
         $light-primary-color,
         $secondary-color
       );
-      -webkit-background-clip: text;
+      background-clip: text;
+
       -webkit-text-fill-color: transparent;
       font-style: normal;
     }
   }
 }
 
-@media (min-width: 1080x) {
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1080px) {
   .main-section {
     flex-direction: row;
   }
