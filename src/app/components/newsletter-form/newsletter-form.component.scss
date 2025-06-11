@@ -1,2 +1,79 @@
+@use "../../../color-variables.scss" as *;
+
 .form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 70px;
+  background: $secondary-color;
+  color: white;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 500px;
+  }
+
+  .text {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+
+    input {
+      background: none;
+      border: none;
+      border-bottom: 1px solid white;
+      height: 60px;
+      color: white;
+      font-size: 16px;
+
+      &::placeholder {
+        color: white;
+      }
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      border-radius: 30px;
+      border: none;
+      font-weight: 600;
+      background: #fff;
+      color: $secondary-color;
+      cursor: pointer;
+      align-self: center;
+    }
+  }
+}
+
+@media (min-width: 1080px) {
+  .form-section {
+    flex-direction: row;
+    gap: 115px;
+    padding: 40px 120px;
+
+    .text {
+      flex: 1;
+      margin-bottom: 0;
+    }
+
+    form {
+      flex: 1;
+    }
+  }
 }

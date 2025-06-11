@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { BtnPrimaryComponent } from './btn-primary.component';
 
 describe('BtnPrimaryComponent', () => {
@@ -8,9 +7,8 @@ describe('BtnPrimaryComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BtnPrimaryComponent]
-    })
-    .compileComponents();
+      imports: [BtnPrimaryComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(BtnPrimaryComponent);
     component = fixture.componentInstance;
