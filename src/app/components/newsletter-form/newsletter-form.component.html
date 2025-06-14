@@ -7,11 +7,17 @@
     cumque officiis ratione dignissimos deleniti ea mollitia ducimus velit illum
     quod cum, autem at error vel in, iure perferendis.
   </p>
-  <form>
-    <label for="email">Name</label>
-    <input id="name" />
+  <form [formGroup]="newsletterForm">
+    <label for="name">Name</label>
+    <input id="name" formControlName="name" />
     <label for="email">Email</label>
-    <input id="email" />
-    <btn-primary btn-text="se inscreva" variant="secondary"></btn-primary>
+    <input id="email" formControlName="email" />
+    <btn-primary
+      btn-text="se inscreva"
+      variant="secondary"
+      (submit)="onSubmit()"
+      [disabled]="!newsletterForm.valid"
+      [loading]="loading()"
+    ></btn-primary>
   </form>
 </section>
