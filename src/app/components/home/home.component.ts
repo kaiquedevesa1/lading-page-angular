@@ -3,6 +3,7 @@ import { HeaderComponent } from '../header/header.component';
 import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { NewsletterFormComponent } from '../newsletter-form/newsletter-form.component';
+import { HomeServicesComponent } from '../home-services/home-services.component';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import { NewsletterFormComponent } from '../newsletter-form/newsletter-form.comp
     NgOptimizedImage,
     BtnPrimaryComponent,
     NewsletterFormComponent,
+    HomeServicesComponent,
   ],
   providers: [],
   templateUrl: './home.component.html',

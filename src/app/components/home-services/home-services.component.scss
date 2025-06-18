@@ -1,0 +1,24 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  gap: 16px;
+
+  .discription-service1,
+  .discription-service2 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .sub-title {
+  }
+}
+
+@media (min-width: 1080px) {
+  .services {
+    flex-direction: row;
+  }
+  .benefit-section {
+    flex-direction: row;
+  }
+}
