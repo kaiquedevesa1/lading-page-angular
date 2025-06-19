@@ -1,24 +1,56 @@
 .services {
   display: flex;
   flex-direction: column;
-  padding: 70px;
-  gap: 16px;
+  width: 100%;
 
-  .discription-service1,
-  .discription-service2 {
-    font-weight: 400;
+  .info-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    width: 505px;
+    height: 72px;
+  }
+
+  h3 {
+    color: #0d002e;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  p {
     font-size: 16px;
+    font-weight: 400;
   }
 
   .sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    width: 1051px;
+    height: 140px;
+    padding-top: 100px;
   }
-}
 
-@media (min-width: 1080px) {
-  .services {
-    flex-direction: row;
-  }
-  .benefit-section {
-    flex-direction: row;
+  @media (min-width: 1080px) {
+    .info-services {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
 }

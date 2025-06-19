@@ -65,12 +65,24 @@ main {
       font-style: normal;
     }
   }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .cta-section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.home-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
 }
 
 @media (min-width: 1080px) {
