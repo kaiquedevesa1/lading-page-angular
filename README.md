@@ -46,21 +46,21 @@ Centralização de lógica de negócio e injeção de dependências com inject()
 
 💻 Como rodar o projeto
 1️⃣ Clone o repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
+- bash
+- Copiar
+- Editar
+- git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2️⃣ Instale as dependências:
-bash
-Copiar
-Editar
-npm install
+- bash
+- Copiar
+-Editar
+- npm install
 
 3️⃣ Rode o projeto:
-bash
-Copiar
-Editar
+- bash
+- Copiar
+- Editar
 npm run dev
 ⚠️ Certifique-se de estar usando Node.js 18+ e Angular CLI 17+
 
