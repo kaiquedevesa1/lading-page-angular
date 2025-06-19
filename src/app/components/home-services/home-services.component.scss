@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
   }
 
   .description {
@@ -38,11 +39,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     font-size: 40px;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
-    width: 1051px;
+    width: 901px;
     height: 140px;
     padding-top: 100px;
   }
@@ -51,6 +51,10 @@
     .info-services {
       flex-direction: row;
       flex-wrap: wrap;
+    }
+
+    .sub-title {
+      padding-top: 300px;
     }
   }
 }
