@@ -61,8 +61,9 @@ Centralização de lógica de negócio e injeção de dependências com inject()
 - bash
 - Copiar
 - Editar
-npm run dev
-⚠️ Certifique-se de estar usando Node.js 18+ e Angular CLI 17+
+- npm run dev
+
+- ⚠️ Certifique-se de estar usando Node.js 18+ e Angular CLI 17+
 
 📚 Aprendizado
 Este projeto foi uma ótima oportunidade para consolidar o uso das novidades do Angular 17 standalone, aprender sobre SSR e boas práticas modernas de desenvolvimento com RxJS e Signals.
