@@ -1,59 +1,68 @@
-# LadingPage
+Landing Page com Angular 17
+Projeto desenvolvido acompanhando o tutorial da Fernanda Kipper, com o objetivo de praticar recursos modernos do Angular 17 standalone.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+🚀 Tecnologias Utilizadas
+Angular 17 (standalone)
 
-## Development server
+RxJS
 
-To start a local development server, run:
+TypeScript
 
-```bash
-ng serve
-```
+SCSS
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🎯 Funcionalidades Implementadas
+Criação de componentes standalone reutilizáveis
 
-## Code scaffolding
+Carregamento e gerenciamento de imagens via assets
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Formulários responsivos com HTML semântico, Flexbox e media queries
 
-```bash
-ng generate component component-name
-```
+Gerenciamento reativo de estado com signals (signal())
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Consumo de API com HttpClient e tratamento de estados de carregamento
 
-```bash
-ng generate --help
-```
+Encapsulamento de regras de negócio em serviços standalone
 
-## Building
+Projeto criado com Server-Side Rendering (SSR) habilitado para melhor SEO e performance
 
-To build the project run:
+🔧 Principais conceitos aplicados
+✅ Criação de componentes
+Organização modular com imports declarados no próprio componente standalone.
 
-```bash
-ng build
-```
+✅ Carregamento de imagens
+Manipulação de imagens estáticas e dinâmicas no template.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+✅ Criação de formulários
+Estruturação de formulários responsivos e acessíveis.
 
-## Running unit tests
+✅ Utilização de Signals
+Gerenciamento de estado reativo com signal() e diretivas @if/@else.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+✅ Consumo de API com HttpClient
+Requisições HTTP com operadores RxJS como pipe() e finalize() para controle de loading.
 
-```bash
-ng test
-```
+✅ Serviços standalone
+Centralização de lógica de negócio e injeção de dependências com inject().
 
-## Running end-to-end tests
+💻 Como rodar o projeto
+1️⃣ Clone o repositório:
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-For end-to-end (e2e) testing, run:
+2️⃣ Instale as dependências:
+bash
+Copiar
+Editar
+npm install
 
-```bash
-ng e2e
-```
+3️⃣ Rode o projeto:
+bash
+Copiar
+Editar
+npm run dev
+⚠️ Certifique-se de estar usando Node.js 18+ e Angular CLI 17+
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📚 Aprendizado
+Este projeto foi uma ótima oportunidade para consolidar o uso das novidades do Angular 17 standalone, aprender sobre SSR e boas práticas modernas de desenvolvimento com RxJS e Signals.
